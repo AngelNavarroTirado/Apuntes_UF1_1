@@ -51,3 +51,30 @@
 
 #### Anàlisi
 
+En l’analisis és determina i defineix les caracteristiques i necessitats que el client vol pel programa.
+
+#### Disseny
+
+En el diseny descompondrem i organitzarem el sistema en elements per el desenvolupament individual.
+
+#### Codificació
+
+En la codificació s’escriu el codi font de cada component.
+
+#### Proves
+
+En les probes el objectiu sera probar el rendiment del software.
+
+#### Manteniment
+
+En el manteniment és l’apartat on és realizataran canvis ocasionals per la millora del software.
+
+## MODELS DE DESENVOLUPAMENT DE SOFTWARE
+
+- **Model clàssic**
+  - **Model en cascada**
+  - **Model en V**
+- **Model de construcció de prototips**
+- **Model evolutius o incrementals**
+  - **Model en espiral**
+  - **Metologia agil**
