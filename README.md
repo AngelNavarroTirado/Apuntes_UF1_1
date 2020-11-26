@@ -78,3 +78,19 @@ En el manteniment és l’apartat on és realizataran canvis ocasionals per la m
 - **Model evolutius o incrementals**
   - **Model en espiral**
   - **Metologia agil**
+  
+### MODEL EN CASCADA
+
+![MODEL EN CASCADA][https://www.google.com/url?sa=i&url=https%3A%2F%2Fopenclassrooms.com%2Fen%2Fcourses%2F4309151-gestiona-tu-proyecto-de-desarrollo%2F4538221-en-que-consiste-el-modelo-en-cascada&psig=AOvVaw0xqqY4HMTdqpkl5FwwhAbn&ust=1606501560044000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC0xOrqoO0CFQAAAAAdAAAAABAO]
+
+- Model de major antiguetat.
+- Identifica les fases principals
+- Les fases han de ralitzarse en el ordre indicat.
+- El resultat d'una fase es l'entrada d'una següent.
+- Es un model rigid amb una adaptació als cambis dolenta.
+- Existe diferents variants amb major o menor quantitat d'activitat.
+
+### MODEL EN V
+
+![Model en V][https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fsoftware-engineering-sdlc-v-model%2F&psig=AOvVaw2xZu96uI3BuWCZ-TzycqPS&ust=1606501845506000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjusvfroO0CFQAAAAAdAAAAABAQ]
+
