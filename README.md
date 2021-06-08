@@ -79,18 +79,222 @@ En el manteniment és l’apartat on és realizataran canvis ocasionals per la m
   - **Model en espiral**
   - **Metologia agil**
   
-### MODEL EN CASCADA
+### Model en cascada
 
-![MODEL EN CASCADA][https://www.google.com/url?sa=i&url=https%3A%2F%2Fopenclassrooms.com%2Fen%2Fcourses%2F4309151-gestiona-tu-proyecto-de-desarrollo%2F4538221-en-que-consiste-el-modelo-en-cascada&psig=AOvVaw0xqqY4HMTdqpkl5FwwhAbn&ust=1606501560044000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC0xOrqoO0CFQAAAAAdAAAAABAO]
+Té les següents característiques:
+- Es el model més antic.
+- Identifica les fases principals de desenvolupament programari.
+- Les fases s'han de fer en l'ordre indicat.
+- El resultat d'una fase és l'entrada de la següent fase.
+- És un model bastant rígid que s'adapta malament a el canvi continu d'especificacions.
+- Existeixen diferents variants amb més o menys quantitat d'activitats.
 
-- Model de major antiguetat.
-- Identifica les fases principals
-- Les fases han de ralitzarse en el ordre indicat.
-- El resultat d'una fase es l'entrada d'una següent.
-- Es un model rigid amb una adaptació als cambis dolenta.
-- Existe diferents variants amb major o menor quantitat d'activitat.
+### Model en V
 
-### MODEL EN V
+- Es un model molt semblant a el model en cascada.
+- Visió jerarquitzada amb diferents nivells.
+- Els nivells superiors indiquen major abstracció.
+- Els nivells inferiors indiquen major nivell de detall.
+- El resultat d'una fase és l'entrada de la següent fase.
+- Existeixen diferents variants amb més o menys quantitat d'activitats.
 
-![Model en V][https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fsoftware-engineering-sdlc-v-model%2F&psig=AOvVaw2xZu96uI3BuWCZ-TzycqPS&ust=1606501845506000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjusvfroO0CFQAAAAAdAAAAABAQ]
 
+
+### Model de construcció de prototips
+
+En els prototips de tant en tant no estan especificats clarament per els següents motius:
+
+- Per no existir experiència prèvia.
+- Per omissió o falta de concreció de l'usuari / client.
+
+Procés dels prototips:
+
+- Es crea un prototip durant la fase d'anàlisi i és provat per l'usuari / client per refinar els requisits de programari a desenvolupar.
+- Es repeteix el pas anterior les vegades necessàries.
+
+
+Tipus de prototips:
+
+- Prototips ràpids:
+  - Prototip pot estar desenvolupat usant un altre llenguatge i / o eines
+  - Finalment el prototip es rebutja.
+- Prototips evolutius:
+  -  El prototip està dissenyat en el mateix llenguatge i eines de el projecte.
+  - El prototip es fa servir com a base per desenvolupar el projecte.
+
+
+
+### **Model en espiral**
+
+El model en espiral va ser desenvolupat per Boehm en 1988.
+
+L'activitat d'enginyeria correspon a les fases dels models clàssics: anàlisi, disseny, codificació, proves i manteniment.
+
+**Aplicat a la programació orientada a objectes:**
+
+En l'activitat d'enginyeria es dóna gran importància a la reutilització de codi.
+
+
+### **Metodologies àgils**
+
+Les metodologies àgils són:
+
+- Mètodes d'enginyeria de programari basats en el desenvolupament iteratiu i incremental.
+- Els requisits i solucions evolucionen amb el temps segons la necessitat de el projecte.
+- El treball és realitzat mitjançant la col·laboració d'equips auto-organitzats i multidisciplinaris, immersos en un procés compartit de presa de decisions a curt termini.
+- Les metodologies més conegudes són:
+  - Kanban 
+  - Scrum
+  - XP (eXtreme Programing)
+
+En les metodologies àgils també podem trobar **Manifest pel Desenvolupament Àgiló**:
+
+- **Individus i interaccions** sobre processos i eines.
+- **Programari funcionant** sobre documentació extensiva.
+- **Col·laboració amb el client** sobre negociació contractual.
+- **Resposta davant el canvi** sobre seguir un pla.
+
+
+#### **KANBAN**
+
+KANBAN o dit d'un altre manera "sistemes de targetes", esta desenvolupat per Toyota per la industria de fabricants de productes.
+Controla per demanda, la fabricació dels productes necessaris en la quantitat i temps necessaris.
+I esta enfocat a lliurar el màxim valor per als clients, utilitzant els recursos justos.
+
+
+#### **SCRUM**
+
+**Conceptes** de scrum:
+
+- Es un model de desenvolupament incremental.
+- Fer interaccions regulars cada 2,3 o 4 setmanes.
+- Al principi de cada iteració s'estableixen els seus objectius prioritzats (sprint backlog).
+- A l'acabar cada iteració s'obté un lliurament parcial utilitzable pel client.
+- Hi reunions diàries per tractar la marxa de l'esprint/projecte.
+
+**Rols** Principals:
+
+- **Product Owner**: Es la veu del client. Defineix criteris d'acceptació i assegura que es compleixin.
+
+- **Scrum Màster:** Assegura que se segueix la metodologia Scrum. Motiva i facilita el treball de l'equip i ajudar a eliminar impediments que poden afectar al lliurament del producte. A més, s'encarrega de les tasques de mentoring i formació, coaching i de facilitar reunions i esdeveniments si cal.
+
+- **Team:** Es l'equip de desenvolupament auto-organitzat i multifuncional que esta format entre 6 i 10 membres.
+
+
+**Artefactes**
+
+- **Product Backlog:** Llista ordenada amb els requisits del producte
+
+- **Sprint Backlog:** Llista de requisits trets de l'backlog per al seu desenvolupament durant l'esprint
+
+- **Increment:** Es l'estat del producte després de cada esprint
+
+---
+
+## **LLENGUATGES DE PROGRAMACIÓ**
+
+### **Obtenció de codi executable**
+
+Per obtenir codi binari executable tenim 2 opcions, per:
+- Compilació
+- interpretació
+
+
+### **Procés de compilació / interpretació**
+
+La compilació / interpretació de el codi font es porta a terme en dues fases:
+- Anàlisi lèxic
+- Anàlisi sintàctica
+
+Si no hi ha errors, es genera el codi objecte corresponent.
+
+Un codi font correctament escrit no vol dir que funcioni segons el desitjat.
+
+No es realitza una anàlisi semàntic.
+
+
+
+### **Llenguatges compilats**
+
+Exemples: C, C++.
+
+- **Principal avantatge:** Execució molt eficient.
+
+- **Principal desavantatge:** Cal compilar cada vegada que el codi font és modificat.
+
+
+
+### **Llenguatges Interpretats**
+
+Exemples: PHP, Javascript.
+
+- **Principal avantatge:** El codi font s'interpreta directament.
+
+- **Principal desavantatge:** Execució menys eficient.
+
+
+### **Javas**
+
+Es un lleguatge de compilació he interpretació.
+
+El codi font Java es compila i s'obté un codi binari intermedi denominat bytecode, després aquest bytecode s'interpreta per executar-lo.
+
+Es pot considerar codi objecte però destinat a la màquina virtual de Java en lloc de codi objecte natiu.
+
+- **Principal avantatge:** 
+  - Estructurat i Orientat a Objectes
+  - Relativament fàcil d'aprendre
+  - Bona documentació i base d'usuaris
+
+- **Principal desavantatge:**
+  - Menys eficient que els llenguatges compilats
+
+
+### **Tipus**
+
+Els tipus es segons la forma en què operen:
+- **Declaratius:** indiquem el resultat a obtenir sense especificar els passos.
+- **Imperatius:** indiquem els passos a seguir per obtenir un resultat.
+
+#### **Lenguajes declarativos** (Normalment són llenguatges interpretats):
+- Lògics: Utilitzen regles. Ex: Prolog
+- Funcionals: Utilitzen funcions. Ex: Lisp, Haskell
+- Algebraics: Utilitzen sentències. Ex: SQL
+
+#### **Lenguajes Imperatius** (Normalment són llenguatges interpretats):
+
+- **Estructurats:** C
+- **Orientats a objectes:** Java
+- **Multiparadigma:** C++, Javascript
+
+Els llenguatges orientats a objectes són també llenguatges estructurats.
+Molts d'aquests llenguatges són compilats.
+
+#### **Tipus: Segons el nivell d'abstracció**
+
+Tipus de llenguatges segons nivell d'abstracció:
+- Baix nivell: assemblador (codi maquina, comandes, etc..)
+- Medi nivell: C
+- Alt nivell: C ++, Java (són els que tenen que utilitzar un IDE para fer-ho)
+
+---
+
+### **EVOLUCIÓN**
+
+- Codi binari
+- Assemblador
+- Llenguatges estructurats
+- Llenguatges orientats a objectes
+
+---
+
+### **CRITERIS PER A LA SELECCIÓ D'UN LLENGUATGE**
+
+- Camp d'aplicació
+- Experiència prèvia
+- Eines de desenvolupament
+- Documentació disponible
+- Base d'usuaris
+- Reusabilitat
+- Portabilitat
+- Imposició de el client
